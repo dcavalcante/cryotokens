@@ -1,0 +1,25 @@
+{
+  "name": "cryotokens",
+  "version": "1.0.0",
+  "description": "Freeze JSON Web Tokens until expiry",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jwt",
+    "redis"
+  ],
+  "author": "Daniel Cavalcante <dcavalcante@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "redis-mock": "^0.43.0",
+    "sinon": "^7.3.2"
+  }
+}
